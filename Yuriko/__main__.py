@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/cac9c99b007221927659f.jpg"
+yurikorobot_IMG = "https://telegra.ph/file/783427fbd0607b6712947.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -111,7 +111,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Aᴅᴅ Mᴇ", url="http://t.me/Miss_Elena_Robot?startgroup=true"),
+        InlineKeyboardButton(text="Aᴅᴅ Mᴇ", url="http://t.me/Missnora_Xrobot?startgroup=true"),
     ],
 ]
 
@@ -248,7 +248,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/elena_support_group")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/missnora_support_group")]]
             ),
         )
         
@@ -380,8 +380,8 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *Elena* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of Elenabot.`
+            text=""" *Nora* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of Nora.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -391,10 +391,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/elena_support_group"
+                            text="Bᴜɢ'ꜱ", url="t.me/missnora_support_group"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/elena_support_group"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/grb_network/12"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -447,7 +447,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, Elenabot now ready to manage your group.`"
+            f"\n✗ `Congragulations,Nora now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -480,9 +480,9 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @Miss_security_bot `to your group:`"
+            f"\n\n✗ `3.) add` @Miss_Elena_Robot `to your group:`"
             f"\n\n✗ `4.) you have our another bot.`"
-            f"\n\n✗ *Lets Enjoy The Both bots And Join Support Group @elena_support_group*"
+            f"\n\n✗ *Lets Enjoy The Both bots And Join Support Group @missnora_support_group*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ GᴀᴜʀBᴏᴏ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -494,7 +494,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, Elenabot now ready to manage your group.`"
+            f"\n✗ `Congragulations, Nora now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -516,11 +516,11 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="https://t.me/elena_logs"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="https://t.me/missnora_support_group"),
                     InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/grb_network"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/elena_support_group"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/missnora_support_group"),
                     InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/grb_network"),
                  ],
                  [
@@ -532,19 +532,19 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR ELENA DEV'S</b>\n"
+            text=f"<b> CREDIT FOR Nora DEV'S</b>\n"
             
             f"\n`✗ Here Some Developers Helping in Making The Elena Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sɪɴɢʜ", url="t.me/gauravsingh003"),
-                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sʜᴀʀᴍᴀ", url="t.me/sharmag02"),
+                    InlineKeyboardButton(text="Gaurav Singh", url="t.me/gauravsingh003"),
+                    InlineKeyboardButton(text="Ayushi", url="t.me/AyushiGoyal123"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴏᴜʙɪᴋ Rᴏʏ", url="t.me/Subu449400"),
-                    InlineKeyboardButton(text="Kʜɪᴛɪᴊ Pᴀɴᴅᴇʏ", url="https://t.me/the_real_kshitij"),
+                    InlineKeyboardButton(text="lakshya", url="t.me/lakshyag30"),
+                    InlineKeyboardButton(text="Vanshika", url="https://t.me/Missnora_xd"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -560,8 +560,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Elena*
-                 \nHere is the [🔥Source Code🔥](https://t.me/elenasource) .""",
+            text=""" Hi..😻 I'm *Nora*
+                 \nHere is the [🔥Source Code🔥](https://github.com/gauravsingh0/ELENA-ROBOT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
