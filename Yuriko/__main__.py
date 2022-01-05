@@ -421,7 +421,7 @@ def yurikorobot_about_callback(update, context):
             
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@Miss_Elena_Robot` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@Missnora_Xrobot` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -534,7 +534,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> CREDIT FOR Nora DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Elena Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The Nora Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
