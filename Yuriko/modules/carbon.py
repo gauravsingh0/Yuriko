@@ -24,13 +24,13 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/668513b8be34c0af07dd3.jpg"
+MEMEK = "https://telegra.ph/file/783427fbd0607b6712947.jpg"
 
 @pbot.on_message(filters.command("alive"))
 async def alive(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hᴇʏ I Aᴍ Eʟᴇɴᴀ Bᴏᴛ** 
+        caption=f"""✨ **Hᴇʏ I Aᴍ Nora** 
 
 **🧑‍💻 Powered By : [Team Gaurboo](https://t.me/grb_network)**
 **🐍 Python Version :** `{y()}`
@@ -46,7 +46,7 @@ async def alive(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://t.me/elenasource"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/elena_support_group")
+                        "Support", url="https://t.me/missnora_support_group")
                 ]
             ]
         )
