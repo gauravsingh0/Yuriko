@@ -109,7 +109,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "😕 **Elena is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "😕 **Nora is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
@@ -180,7 +180,7 @@ def config(client, message):
 __help__ = """
 *Force Subscribe:*
 
-✗ `Elena can mute members who are not subscribed your channel until they subscribe`
+✗ `Nora can mute members who are not subscribed your channel until they subscribe`
 
 ✗ `When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them`
 
